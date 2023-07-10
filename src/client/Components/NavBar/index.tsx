@@ -10,6 +10,10 @@ import MobinleNavbar from "../MobNavbar";
 import { RiArrowDownSLine } from "react-icons/ri";
 import { Transition } from "react-transition-group";
 import SideNavBar from "./SideNavBar";
+const imgUrl3 = new URL("../../assets/images/image3.jpeg", import.meta.url)
+	.href;
+const imgUrl2 = new URL("../../assets/images/image2.jpeg", import.meta.url)
+	.href;
 const Navbar = () => {
 	const [isSideBarOpen, setSideBarOpen] = useState<boolean>(false);
 	const navRef = useRef<HTMLDivElement | null>(null);
@@ -44,20 +48,14 @@ const Navbar = () => {
 					<IconCard icon={<IoMdNotificationsOutline />} noti={true} />
 					<IconCard icon={<AiOutlineMail />} />
 					<div className=" relative w-10 h-10 ">
-						<img
-							src="public/images/image2.jpeg"
-							className="rounded-full max-h-10 min-w-10"
-						/>
+						<img src={imgUrl2} className="rounded-full max-h-10 min-w-10" />
 						<div className="absolute -right-3 -bottom-2 bg-gray-300 scale-50 p-1 rounded-full">
 							<RiArrowDownSLine style={{ fontSize: "1.5rem" }} />
 						</div>
 					</div>
 				</div>
 				<div className=" lg:hidden relative w-10 h-10 ">
-					<img
-						src="public/images/image2.jpeg"
-						className="rounded-full max-h-10 min-w-10"
-					/>
+					<img src={imgUrl3} className="rounded-full max-h-10 min-w-10" />
 					<div className="absolute -right-3 -bottom-2 bg-gray-300 scale-50 p-1 rounded-full">
 						<RiArrowDownSLine style={{ fontSize: "1.5rem" }} />
 					</div>

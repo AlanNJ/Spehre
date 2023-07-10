@@ -2,7 +2,7 @@ import React from "react";
 
 const Logo = () => {
 	return (
-		<div>
+		<div className="">
 			<img src="" />
 			<h1 className="text-gradient">Spehre</h1>
 		</div>

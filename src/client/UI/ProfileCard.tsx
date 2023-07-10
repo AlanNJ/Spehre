@@ -1,14 +1,14 @@
 import React from "react";
 import { IoIosPeople } from "react-icons/io";
+const imgUrl = new URL("../assets/images/man.jpeg", import.meta.url);
 
 const ProfileCard = () => {
-	const imageUrl = "/public/images/man.jpeg";
 	return (
 		<div className=" w-full ">
 			<div
 				className="relative bottom-20  h-40 w-40 rounded-full bg-orange-200 left-[50%] -translate-x-[50%]"
 				style={{
-					backgroundImage: `url(${imageUrl})`,
+					backgroundImage: `url(${imgUrl})`,
 					backgroundSize: "cover",
 					backgroundRepeat: "no-repeat",
 					backgroundPosition: "center",
