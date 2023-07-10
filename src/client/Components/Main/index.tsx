@@ -16,7 +16,7 @@ const Main = () => {
 					<FiEdit2 />
 				</div>
 			</div>
-			<div className="flex-col lg:flex lg:flex-row h-full  gap-5">
+			<div className="flex-col lg:flex lg:flex-row h-full bg-white px-7 lg:px-0 ">
 				<MainLeft />
 				<MainRight />
 			</div>

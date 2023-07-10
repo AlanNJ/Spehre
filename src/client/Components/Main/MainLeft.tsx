@@ -11,7 +11,7 @@ const chartData = [10, 5, 5, 20, 20, 5, 10, 15];
 const chartLabels = ["Label 1", "Label 2", "Label 3", "Label 4"];
 const MainLeft = () => {
 	return (
-		<div className="p-3 w-full lg:w-1/4 h-full bg-white">
+		<div className="py-3 w-full lg:w-1/4 h-full bg-white">
 			<ProfileCard />
 			<div className="relative bottom-10 flex gap-1 items-start">
 				<div>

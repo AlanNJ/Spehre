@@ -8,7 +8,7 @@ interface IiconCard {
 const IconCard: React.FC<IiconCard> = ({ icon, noti }) => {
 	return (
 		<div
-			className="p-2 relative shadow-sm bg-white rounded-md border-2 border-slate-300"
+			className="p-2 lg:p-2 relative shadow-sm bg-white rounded-md border-2 border-slate-300"
 			style={{ fontSize: "1.5rem" }}
 		>
 			{icon}

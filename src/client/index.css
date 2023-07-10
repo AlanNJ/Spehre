@@ -64,6 +64,6 @@ p {
 	background: linear-gradient(to right, purple, blue, rgba(255, 0, 0, 0.4));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	padding-left: 2rem;
+
 	width: 100%;
 }
